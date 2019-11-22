@@ -33,7 +33,9 @@ h3 {
   min-height: 100%;
   background-size: auto;
 }
-
+.rosecake {
+  background: url("rosecake.jpg")
+}
 .kitchen-equipment  {
   background-image: url("utensils.JPG");
 }
