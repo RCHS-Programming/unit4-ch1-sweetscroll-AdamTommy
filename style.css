@@ -17,7 +17,7 @@ h3 {
   padding:50px 80px;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .simple-cake, .kitchen-equipment, .cake-ingredients, .preparation, .cooking-instuctions, .decorations {
   position: relative;
   background-position: center;
   background-attachment: fixed;
@@ -33,14 +33,23 @@ h3 {
   min-height: 100%;
   background-size: auto;
 }
-.rosecake {
-  background: url("rosecake.jpg")
+.simple-cake {
+  background-image: url("img_parallax.jpg");
 }
 .kitchen-equipment  {
   background-image: url("utensils.JPG");
 }
 .cake-ingredients {
-  background: url("ingredients.jpg");
+  background-image: url("ingredients.jpg");
+}
+.preparation {
+  background-image: url("mixer.jpg");
+}
+.cooking-instuctions {
+  background-image: url("oven.jpg");
+}
+.decorations {
+  background-image: url("rosecake.jpg");
 }
 .caption {
   position: absolute;
@@ -56,8 +65,8 @@ h3 {
   letter-spacing: 10px;
 }
 /* Trun off parallax scrolling for tablets and phones as it is not supported */
-@media only screen and (max-device-width: 1024px) {
-  .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
+/* @media only screen and (max-device-width: 1024px) {
+  .cd-logo,.simple-cake,.kitchen-equipment,.cake-ingredients,.preparation,.cooking-instuctions, .decorations {
     background-attachment: scroll;
   }
-}
+} */
